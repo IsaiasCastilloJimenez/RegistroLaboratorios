@@ -1,0 +1,21 @@
+{
+    "name": "rodrigo/registro",
+    "description": "Proyecto de bitacora para laboratorios enp2",
+    "type": "project",
+    "autoload": {
+            "psr-4" : {
+                "MVC\\" : "./",
+                "Controllers\\" : "./controllers",
+                "Model\\" : "./models"
+            }
+    },
+    "authors": [
+        {
+            "name": "IsaiasCastilloJimenez",
+            "email": "112017999+IsaiasCastilloJimenez@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
