@@ -12,21 +12,21 @@
             Ingrese sus datos:
         </legend>
         <div class="campo">
-            <label for="idEmpleado">Número de Empleado UNAM</label>
+            <label for="idEmpleado">Usuario</label>
             <input type="text"
                     name="empleado"
                     id="idEmpleado" 
-                    placeholder="Su número es de 5 o 6 dígitos"
+                    placeholder="Ingrese su usuario"
 
                     
             />
         </div>
         <div class="campo">
-            <label for="rfc">RFC sin Homoclave</label>
+            <label for="rfc">Password</label>
             <input type="password" 
                     name="rfc"  
                     id="rfc"
-                    placeholder="RFC a 10 posiciones"
+                    placeholder="Ingrese su password"
             />
         </div>
 
