@@ -16,6 +16,8 @@
             <option value="" disabled selected>--Seleccione--</option>
             <option value="D104">D104</option>
             <option value="D105">D105</option>
+            <option value="LL01">LL01</option>
+            <option value="LL02">LL02</option>
         </select>
     </div>
     <div class="campo">
