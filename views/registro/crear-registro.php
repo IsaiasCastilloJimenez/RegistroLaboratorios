@@ -33,12 +33,14 @@
     </div>
 
     <div class="campo">    
-        <label for="grupo">Grupo al que impartió clase:</label>
+        <label for="grupo">Grupo al que impartió clase (NO utilice guión):</label>
         <input type="text"
                 id="grupo" 
                 name="grupo"  
-                placeholder="Ej. 101 ó 405A" 
-                value="<?php echo s($entrada->grupo); ?>" 
+                placeholder="Ej. 101 ó 405A, no utilice guión" 
+                value="<?php echo s($entrada->grupo); ?>"
+                minlength="4"
+                maxlength="4"
                 require
                 /> 
     </div>
